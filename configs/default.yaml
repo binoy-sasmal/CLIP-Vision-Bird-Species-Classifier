@@ -1,0 +1,13 @@
+model:
+  name: "clip_vit"
+  pre_trained: true
+  encoder_type: "ViT-B/32"
+train:
+  batch_size: 32
+  learning_rate: 0.0001
+  epochs: 10
+data:
+  train_dir: "D:/Projects/Feathered_Gems/Birds_25/train"
+  val_dir: "D:/Projects/Feathered_Gems/Birds_25/valid"
+  image_size: 224
+output_dir: "./outputs"

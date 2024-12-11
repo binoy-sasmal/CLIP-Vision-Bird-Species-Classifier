@@ -38,7 +38,7 @@ The project uses the **CLIP ViT-B/32** model. The classification head is impleme
 Here is the folder structure of the project:
 
 ```plaintext
-CLIP-Bird-Classifier/
+CLIP-Vision-Bird-Species-Classifier/
 ├── configs/
 │   └── default.yaml          # Configuration file for training
 ├── datasets/
